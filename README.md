@@ -1,2 +1,2 @@
 # ansible-install-git
-Script for installing
+Script for installing git using ansible
