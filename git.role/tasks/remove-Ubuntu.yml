@@ -1,0 +1,10 @@
+---
+- name: Remove package version of git
+  apt:
+    name: git
+    state: absent
+- name: add path
+  blockinfile:
+    path: /home/{{ ansible_ssh_user }}/.profile
+    block: |
+      export PATH=$PATH:/usr/local/bin

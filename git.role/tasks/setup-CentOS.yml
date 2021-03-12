@@ -1,0 +1,8 @@
+---
+- name: Update cache
+  yum:
+    update_cache: true
+- name: Check if all package are installed
+  yum:
+    name: "{{ git_packages }}"
+    state: present

@@ -1,0 +1,11 @@
+---
+git_packages:
+  - build-essential
+  - autoconf
+  - libz-dev
+  - libssl-dev
+  - libcurl4-gnutls-dev
+  - libexpat1-dev
+  - gettext
+  - cmake
+  - gcc
